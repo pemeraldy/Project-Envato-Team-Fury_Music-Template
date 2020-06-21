@@ -95,6 +95,11 @@
       format("svg"); /* Legacy iOS */
 }
 
+/* animate */
+:root {
+  --animate-delay: 0.5s;
+}
+
 /* Globals and Colors */
 :root {
   --body-color: #29292c;
@@ -175,7 +180,11 @@ header .hero .hero-content{
   padding: 14px;
   font-size: 14px;
   display:inline-block;
-  width: 120px
+  width: 120px;
+  transition: all 400ms ease-in;
+}
+.hero-content .btn.btn-outline-secondary:hover{
+  transform: scale(1.1);
 }
 
 /* Top artist */
@@ -584,4 +593,36 @@ footer .last-nav li a{
     font-size: 15px;
   } */
 
+}
+
+/* ipad */
+@media only screen and (max-width: 768px){
+  section.events {
+    height: 53vh;
+
+  }
+  section.new-release {
+    height: 50vh;
+  }
+
+  .newsletter .side-box {
+    height: auto;
+  }
+}
+/* ipad pro */
+@media only screen and (max-width: 1024px){
+  header .hero .hero-content{
+    margin-top: 300px;
+  }
+  section.events {
+    height: 46vh;
+
+  }
+  section.new-release {
+    height: 50vh;
+  }
+
+  .newsletter .side-box {
+    height: auto;
+  }
 }
