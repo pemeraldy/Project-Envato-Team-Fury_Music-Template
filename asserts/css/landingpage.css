@@ -468,3 +468,26 @@ footer .last-nav li.nav-link {
 footer .last-nav li a{
   color:var(--btn-color)
 }
+
+
+/* responsive */
+@media only screen and (max-width: 1440px) and (min-width: 1440px){
+  header .hero .hero-content{
+    padding-top: 60px;
+  }
+  section.events {
+    height:80vh;
+  }
+  .events .event-img {
+    padding-top:20;
+  }
+  .events .event-img img{
+    max-width: 100%;
+  }
+  section.new-release {
+    height: 74vh
+  }
+  section.blog{
+    padding-top: 50px;
+  }
+}
