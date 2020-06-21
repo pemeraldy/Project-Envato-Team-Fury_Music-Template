@@ -135,6 +135,9 @@ nav.navbar .navbar-brand{
 .navbar .navbar-nav .nav-item{
   margin: 0 10px;
 }
+.navbar .navbar-nav .nav-item.active .nav-link{
+  color:var(--btn-color)
+}
 .navbar .navbar-nav .nav-link.btn.btn-outline-secondary{
   border: 1px solid var(--btn-color);
   width: 120px;
