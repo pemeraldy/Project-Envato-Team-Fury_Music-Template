@@ -124,7 +124,7 @@ body {
 header .navbar{
   background-color: var(--nav-bg-color);
 }
-.navbar-brand{
+nav.navbar .navbar-brand{
   font-size: 28px;
   font-weight: 600;
   color: var(--logo-color);
@@ -144,12 +144,9 @@ header .navbar{
   background-color: var(--btn-color);
   color: white;
 }
-.navbar-toggler{
-  background-color: var(--btn-color);
-}
+
 .navbar-toggler-icon{
   color: var(--explore-bg-color) !important;
-  
 }
 
 /* Hero image */
